@@ -9,7 +9,7 @@ elif a=="+":
   print(c+b)
 elif a=="/":
   try:
-    print(c/b)
+   print(c/b)
   except ZeroDivisionError:
    print("я так не умею")
   else:
