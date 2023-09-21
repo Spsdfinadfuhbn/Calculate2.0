@@ -11,11 +11,10 @@ elif a=="-":
 elif a=="+":
   print(c+b)
 elif a=="/":
+  try:
+    print(c/b)
+  except ZeroDivisionError:
+   print("я так не умею))")
    print(c/b)
-try:
-  print(c/b)
-except ZeroDivisionError:
-  print("я так не умею))")
-  
-else:
+  else:
     "break"
