@@ -7,7 +7,7 @@ elif a=="-":
   if c-b>0:
     print(-(c-b))
   else:
-    prinbt(c-b)
+    print(c-b)
 elif a=="+":
   print(c+b)
 elif a=="/":
