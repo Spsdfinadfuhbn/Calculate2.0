@@ -11,7 +11,6 @@ elif a=="/":
   try:
     print(c/b)
   except ZeroDivisionError:
-   print("я так не умею))")
-   print(c/b)
+   print("я так не умею")
   else:
     "break"
