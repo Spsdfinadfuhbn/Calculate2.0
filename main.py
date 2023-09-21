@@ -4,10 +4,7 @@ a=input("Введи знак:")
 if a=="*":
   print(c*b)
 elif a=="-":
-  if c-b>0:
-    print(-(c-b))
-  else:
-    print(c-b)
+  print(c-b)
 elif a=="+":
   print(c+b)
 elif a=="/":
