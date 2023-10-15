@@ -1,16 +1,6 @@
-b=int(input("Введи число:"))
-c=int(input("Введи второе число:"))
-a=input("Введи знак:")
-if a=="*":
-  print(c*b)
-elif a=="-":
-  print(c-b)
-elif a=="+":
-  print(c+b)
-elif a=="/":
-  try:
-    print(c/b)
-  except ZeroDivisionError:
-    print("Я так не умею:")
-else:
-  "break"
+a = int(input())
+b = 1 
+for i in range(1,a+1):
+  b *= i
+print(b)
+   
