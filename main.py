@@ -1,6 +1,8 @@
-a = int(input())
-b = 1 
-for i in range(1,a+1):
-  b *= i
-print(b)
-   
+def faktorial(a):
+  if a == 1:
+    return a
+  else:
+    return a* faktorial(a-1)
+
+a = int(input(":"))
+print(faktorial(a))
